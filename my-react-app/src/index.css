@@ -1,9 +1,52 @@
-*{
+body{
+padding: 0;
+margin: 0;
+}
+header{
+
+  background-color: #ff0900;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 55px;
+  color: aliceblue;
+  font-size: 7px;
+  gap: 5px;
+}
+header> img{
+  font-size: 0.9rem;
+  width: 24px;
+}
+header> h1{
+  font-family: 'Intel',sans-serif;
+  font-weight: 500;
+}
+article.journal-entry{
+  display: flex;
+}
+article.journal-entry .market{
+  width: 7px;
+  margin-right:4px ;
+}
+article.journal-entry .main-image-container{
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 5px;  flex-shrink: 0;
+  margin-right: 19px;
+
+}
+.main-image{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+/* /* *{
   box-sizing: border-box;
 }
 body{
   margin:0px;
-  font-family: Inter,sans-serif;
+  font-family: 'intel', sans-serif;
   color: white;
     background-color: #282D35;
 
@@ -33,7 +76,7 @@ main{
   color: white;
   flex: 1;
     background-image:url(./image/image.png);
-    /* background-size:50% 100%; */
+     background-size:50% 100%; 
     background-position: right 50%;
     background-repeat: no-repeat;
 
@@ -54,7 +97,7 @@ main> h1{
 .facts-list> li::marker {
   color: #04baf1;
   font-size: 1.5rem;
-}
+} */ 
 
 /* *{
   box-sizing: border-box;
@@ -106,4 +149,4 @@ h1{
   background-color: #1a1c20; /* Matches navbar */
   /* padding: 20px 25px;
   color: #a0a0a0;
-} */ 
+} */  
